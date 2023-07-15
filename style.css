@@ -1,0 +1,28 @@
+<style>
+        .back{
+            background-color:lightslategrey;
+            width:93%;
+            height:90%;
+            position:absolute;
+        }
+        .price-card{
+            background-color:white;
+            position:absolute;
+            width:35%;
+            height:55%;
+            border-radius:10px;
+            padding:20px;
+            top:130px;
+            left:400px;
+            border-style:groove;
+        }
+        #dark-blue {
+            background-color: #1BC6BC;
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            top: 50%;
+            left: 0%;
+            color: white;
+        }
+    </style>
