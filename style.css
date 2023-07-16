@@ -4,6 +4,10 @@
             width:93%;
             height:90%;
             position:absolute;
+                box-sizing:border-box;
+        }
+        *,*:before, *:after{
+                box-sizing:inherit;
         }
         .price-card{
             background-color:white;
@@ -25,4 +29,13 @@
             left: 0%;
             color: white;
         }
+@media (max-width:560px){
+        #dark-blue{
+                width:100%;
+        }
+        #price-card{
+                width:100%;
+                height:auto;
+        }
+}
     </style>
